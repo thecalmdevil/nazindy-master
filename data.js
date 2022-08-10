@@ -14,8 +14,4 @@ export default {
     'NodeJS',
     'Blockchain'
   ],
-  i18n: [
-    'us',
-    'br'
-  ]
 };
