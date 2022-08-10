@@ -1,6 +1,7 @@
 import React, { Component, Fragment } from 'react';
 import Head from 'next/head';
 import ReactGA from 'react-ga';
+import SideNavbar from "../components/SideNavbar";
 
 import { Grid } from 'semantic-ui-react';
 import { initI18n } from '../tools/i18n';
@@ -40,6 +41,7 @@ class Homepage extends Component {
           <meta name="viewport" content="width=device-width, initial-scale=1" />
           <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.12/semantic.min.css" />
         </Head>
+        <SideNavbar />
         <AvatarContainer />
         <Grid
           stackable
