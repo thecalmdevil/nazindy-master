@@ -12,16 +12,20 @@ export default class RootDocument extends Document {
 
   render() {
     return (
-      <Html lang="en">
+      <html>
         <Head>
           {this.props.styleTags}
         </Head>
         <body>
-          <Html />
+          {newFunction()}
           <Main />
           <NextScript />
         </body>
-      </Html>
+      </html>
     );
+
+    function newFunction() {
+      return <Html />;
+    }
   }
 }

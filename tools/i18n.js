@@ -9,8 +9,6 @@ export const availableCountries = availableLocales
     code: locales[locale].countryCode
   }));
 export const initI18n = (locale) => {
-I18n.setTranslations(locales);
-I18n.setLocale(locale);
 };
 
 export {
